@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Градиент от розового к оранжевому */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #35424a;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Стили для статей */
+article {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #35424a;
+}
+
+/* Стили для ссылок */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для нижнего колонтитула */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Адаптивные стили */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    article {
+        padding: 10px;
+    }
+}
